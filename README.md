@@ -1,4 +1,4 @@
-FMSv2-JJHAT-spring
-==================
-
-Version 2 to introduce spring Fork of :
+FacilityManagementSystem-jjh
+============================
+This is a project for COMP 373 objects, patterns, and frameworks
+by: j-hayes and A-Thorn

@@ -1,0 +1,7 @@
+Entities:
+
+Some of the entities such as FacilityUsage or MaintenanceRequest "have" other objects. 1toM relationships. I think for the entity classes it is probably safer
+to just store the ID of the other entity. Entities shouldn't beable to retreive other entities. If we want to use this pattern than we will need to create manager classes
+that will fill these entities
+
+ie: FacilityUsage Mannager will use the DAL to populate a FacilityUsage object with both FacilityUsage's attributes as well as a Facility object and a Facility User object.
